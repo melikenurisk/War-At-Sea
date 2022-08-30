@@ -34,7 +34,7 @@ This function will run each time the player will click on their own button. In t
 
 Tags are useful to identify an object when we have multiple objects in the program. In this if statement when the button is clicked we will give it a background colour of blue so its easier to identify it and then we will reduce 1 from the total ships integer. The logic here is we want the player to only be able to select 3 buttons so we gave total ships integer a value of 3, each time the player picks a button total ships integer reduces by 1 and when it gets to 0 it will fire up the second if statement.
 
-The second if statement is checking if the total ships 0 then we enable the attack button, give it a background colour RED. The help text which shows that player needs to select 3 buttons now will be moved to the top and will say 2) Now Pick a attack position from the drop down. In any application you need to have a way for the player to understand and use your application. They can’t guess it really so lets give them some information to play the game better.
+The second if statement is checking if the total ships 0 then we enable the attack button, give it a background colour RED. The help text which shows that player needs to select 3 buttons now will be moved to the top and will say 2) Now Pick a attack position from the drop down. 
 
 enemyLocationPicker;
 
